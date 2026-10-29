@@ -18,13 +18,14 @@ retrieval, and a local Qwen3-8B MLX reader.
 
 ### 1. Environment Setup
 
-python3.11 -m venv .venv-retrieval
+```python3.11 -m venv .venv-retrieval
 .venv-retrieval/bin/python -m pip install \
   -r configs/requirements-retrieval.lock.txt
 
 python3.11 -m venv .venv-reader
 .venv-reader/bin/python -m pip install \
   -r configs/requirements-reader.lock.txt
+```
 
 ### 2. Prepare the dataset
 
