@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+.ipynb_checkpoints/
+
+# Data, models, indexes, and generated results
+models/
+artifacts/
+data/
+results/
+*.tar.gz
+*.zip
+*.log
+
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local files
+.env
+.env.*
+!.env.example
+.DS_Store
+.ipynb_checkpoints/
+
+# Models, data, indexes and outputs
+models/
+artifacts/
+data/
+results/
+release-assets/
+*.tar.gz
+*.zip
+*.log

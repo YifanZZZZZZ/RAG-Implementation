@@ -1,0 +1,2 @@
+# Standard metrics only; MLX judge uses requirements-reader.lock.txt as well.
+rouge-score==0.1.2

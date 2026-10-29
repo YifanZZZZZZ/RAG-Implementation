@@ -1,0 +1,813 @@
+{
+  "version": "public-topics-v1",
+  "label_method": "Manual question-only review; one primary topic per question; no predictions or reference answers used.",
+  "categories": [
+    "General Info and History of Pittsburgh/CMU",
+    "Events in Pittsburgh and CMU",
+    "Music and Culture",
+    "Food-related events",
+    "Sports"
+  ],
+  "rules": [
+    "Sports teams, players, competitions and match schedules -> Sports, including dated games.",
+    "Restaurants, cuisine, food shops, food festivals and farmers markets -> Food-related events, including food history.",
+    "Specific concerts, comedy shows, performances and campus/community event dates, venues or participants -> Events in Pittsburgh and CMU.",
+    "Artworks, museum collections, cultural organizations, admissions and visitor policies, music ensembles -> Music and Culture.",
+    "City/CMU history, research, general campus information, civic services, taxes, budgets and general public-library opening days -> General Info and History of Pittsburgh/CMU."
+  ],
+  "boundary_notes": {
+    "15": "Named-concert conductor -> Events; organizational leadership such as Q63 -> Music and Culture.",
+    "73": "Scotty Saturday asks about a CMU tradition generally -> General Info.",
+    "79": "Library opening days -> General Info; performance photography policy Q122 -> Music and Culture.",
+    "115": "Clemente Museum visitor policy -> Music and Culture, despite its sports subject.",
+    "137": "Kiltie Band is a music ensemble -> Music and Culture.",
+    "155": "Farmers market history -> Food-related events."
+  },
+  "labels": [
+    {
+      "id": "1",
+      "question": "What open mic event occurs weekly on Mondays from 8:00-10:00 PM?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "2",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “Odalisque Coiffure Verte (Odalisque with Green Headdress)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "3",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Metamorphosis (Homage to Kafka)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "4",
+      "question": "What comedy show runs at Pittsburgh Improv starting October 22, 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "5",
+      "question": "What is the significance of the NavLab project at CMU?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "6",
+      "question": "What type of cuisine does täkō in Pittsburgh serve?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "7",
+      "question": "Which artist or school does the Carnegie Museum of Art list for “Summer in Havana” in its collection?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "8",
+      "question": "When is the Pittsburgh Penguins game against the Florida Panthers scheduled in December?",
+      "category": "Sports"
+    },
+    {
+      "id": "9",
+      "question": "Which department does the Carnegie Museum of Art catalog assign to “Portrait of Mrs. Anne Dashwood”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "10",
+      "question": "In which years did Robert Morris men's basketball win NEC Tournament championships?",
+      "category": "Sports"
+    },
+    {
+      "id": "11",
+      "question": "What is the Syracuse Orange's strength of schedule ranking for 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "12",
+      "question": "What credit line does the Carnegie Museum of Art record for “Ce l'anniversaire de grand père. A cette occasion Lidie récite une poésie. (It's grandpa's birthday. On this occasion Lidie recites a poem.)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "13",
+      "question": "What chapter governs Pittsburgh's Institution and Service Privilege Tax?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "14",
+      "question": "How to find the Carnegie Museum of Art on instagram (username)?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "15",
+      "question": "Who is the conductor leading the Pittsburgh Symphony Orchestra concert \"Fiddlesticks: Once Upon a Melody\" at Heinz Hall on November 14, 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "16",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Phenomena Prism Crucible”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "17",
+      "question": "Which college does the Steelers roster list for Carson Bruener?",
+      "category": "Sports"
+    },
+    {
+      "id": "18",
+      "question": "In what year was Pittsburgh Pirates player Brandon Eisert born?",
+      "category": "Sports"
+    },
+    {
+      "id": "19",
+      "question": "What is Mattress Factory’s Instagram handle?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "20",
+      "question": "Where can visitors find an authentic Brazilian steakhouse experience in Pittsburgh?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "21",
+      "question": "Which official must issue the license required of every Pittsburgh Parking Tax operator?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "22",
+      "question": "What is Allegheny County's 2026 operating budget?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "23",
+      "question": "In what year was Pittsburgh Penguins player Nick Robertson born?",
+      "category": "Sports"
+    },
+    {
+      "id": "24",
+      "question": "Which college does the Steelers roster list for Cameron Johnston?",
+      "category": "Sports"
+    },
+    {
+      "id": "25",
+      "question": "What credit line does the Carnegie Museum of Art record for “Portrait of John Caldwell”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "26",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “By the River”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "27",
+      "question": "What is the significance of the year 1964 for Pittsburgh's sports history?",
+      "category": "Sports"
+    },
+    {
+      "id": "28",
+      "question": "What is Pittsburgh Restaurant Week?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "29",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “The Penance of Eleanor, Duchess of Gloucester”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "30",
+      "question": "Who is listed as the creator of “Landscape with Figures” in the Carnegie Museum of Art collection?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "31",
+      "question": "How many games are the Chatham Cougars men’s basketball scheduled to play in December 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "32",
+      "question": "What is Bethel Park Municipality's real estate tax rate?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "33",
+      "question": "What venue hosts the Pittsburgh Savoyards' Winter 2026 production of A Christmas Carol?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "34",
+      "question": "What is unique about Iron Born Pizza in Pittsburgh's Strip District?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "35",
+      "question": "At what time does Sam Shackleton begin at Thunderbird Cafe & Music Hall on November 11, 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "36",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Abe Lincoln's First Book”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "37",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “The Road to Louveciennes (La route de Louveciennes)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "38",
+      "question": "When is the game between Robert Morris men's soccer and Northern Illinois scheduled?",
+      "category": "Sports"
+    },
+    {
+      "id": "39",
+      "question": "What is Dormont Borough's real estate tax rate?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "40",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Rue de l'Abreuvoir”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "41",
+      "question": "At what time does the Pittsburgh Penguins' Halloween Game against the Utah Mammoth begin on October 29, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "42",
+      "question": "What is the specialty of Fet Fisk in Pittsburgh?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "43",
+      "question": "On how many days of the week is the Mt. Lebanon Public Library open?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "44",
+      "question": "Who is the General Manager of the Pittsburgh Steelers?",
+      "category": "Sports"
+    },
+    {
+      "id": "45",
+      "question": "What team will the Pittsburgh Penguins play against on November 5, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "46",
+      "question": "Where was Pittsburgh Pirates player Bubba Chandler born?",
+      "category": "Sports"
+    },
+    {
+      "id": "47",
+      "question": "Which Pittsburgh bridge is the longest?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "48",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “The Lucky Ones”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "49",
+      "question": "How many archival collections does the Detre Library & Archives have?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "50",
+      "question": "Who is listed as the creator of “Landscape study with sky and distant hills” in the Carnegie Museum of Art collection?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "51",
+      "question": "What credit line does the Carnegie Museum of Art record for “George Nevill, Lord Bergavenny”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "52",
+      "question": "What creation date does the Carnegie Museum of Art record for “Winter (Christmas Eve)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "53",
+      "question": "Who will Pitt women's volleyball play on November 24, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "54",
+      "question": "How much does it cost to attend the Heinz History Center with a student ID?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "55",
+      "question": "What acquisition date does the Carnegie Museum of Art record for “Rückkehr”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "56",
+      "question": "What jersey number does the Steelers roster list for Gabriel Rubio?",
+      "category": "Sports"
+    },
+    {
+      "id": "57",
+      "question": "What is the name of Carnegie Mellon's business school?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "58",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “Prisoner of Love #1 (Second Version)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "59",
+      "question": "Who should I contact to ask about auditions to join the Chorus for the 2026-27 season of the Pittsburgh Opera?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "60",
+      "question": "What creation date does the Carnegie Museum of Art record for “Winter Bouquet”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "61",
+      "question": "Which 2026 Pitt men's basketball opponent plays at Canastra Hammer Arena?",
+      "category": "Sports"
+    },
+    {
+      "id": "62",
+      "question": "How many uniformed police officers are budgeted in Pittsburgh?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "63",
+      "question": "Who is the President and CEO of the Pittsburgh Symphony Orchestra?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "64",
+      "question": "Which Pittsburgh-area arts event is scheduled at Arcade Comedy Theater at 6:00 PM on December 5, 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "65",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Christ and the Disciples at Emmaus”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "66",
+      "question": "How did the Carnegie Museum of Art acquire “An African”, according to its catalog?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "67",
+      "question": "How did the Carnegie Museum of Art acquire “Untitled (Lead Checks/Lead Chevron #3)”, according to its catalog?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "68",
+      "question": "What acquisition date does the Carnegie Museum of Art record for “Italian Landscape”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "69",
+      "question": "Which opponent does Pitt women’s basketball play on December 17, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "70",
+      "question": "Which Pittsburgh bakery is known for its macarons?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "71",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “The Keeper of the Threshold”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "72",
+      "question": "What is the specialty of Pusadee's Garden in Pittsburgh?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "73",
+      "question": "What is the 'Scotty Saturday' tradition at Carnegie Mellon?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "74",
+      "question": "At what time does Pitt women's volleyball play Duke on November 6, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "75",
+      "question": "Who will be the Duquesne football team’s head coach for the 2026 season?",
+      "category": "Sports"
+    },
+    {
+      "id": "76",
+      "question": "What distinction does the Farmers' Market Cooperative of East Liberty claim in western Pennsylvania?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "77",
+      "question": "Which Pittsburgh restaurant offers a rooftop dining experience with city views?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "78",
+      "question": "How was “The Cowboy's Ranch” acquired according to the Carnegie Museum of Art record?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "79",
+      "question": "On how many days of the week is the Andrew Carnegie Free Library & Music Hall open?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "80",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Portrait of James M. Walton”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "81",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Green Thought”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "82",
+      "question": "What Earned Income Tax rate does a non-Pennsylvania resident who works within Pittsburgh pay?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "83",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “Underdeveloped Ferocity”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "84",
+      "question": "When does Grateful Shred perform in Pittsburgh in 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "85",
+      "question": "What credit line does the Carnegie Museum of Art record for “Target for No Shooting”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "86",
+      "question": "Where will the Robert Morris football team play Central Connecticut State on October 31, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "87",
+      "question": "Where does the Carnegie Museum of Art currently list the painting “Luxe, Calme et Volupte” as displayed?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "88",
+      "question": "Which major company was founded in Pittsburgh in 1869?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "89",
+      "question": "Which department does the Carnegie Museum of Art catalog assign to “Vermont Pastoral”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "90",
+      "question": "Which opponent does Chatham women’s hockey play on November 24, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "91",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “Still Life with Brioche (Nature morte à la brioche)”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "92",
+      "question": "What is the significance of 'The Cut' on CMU's campus?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "93",
+      "question": "When is first quarter Payroll Tax due in Pittsburgh?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "94",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Red Bird on Yellow”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "95",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Cape Cod Afternoon”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "96",
+      "question": "What's the minimum income for Mt. Lebanon's LST exemption?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "97",
+      "question": "Where does the Carnegie Museum of Art currently list the painting “Incredible Energy” as displayed?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "98",
+      "question": "Which artist or school is credited for “Where the Pavement Ends (Au Dela Des Chemins)” in the Carnegie Museum of Art catalog?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "99",
+      "question": "Where is the Pittsburgh Renaissance Festival held?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "100",
+      "question": "Which Pittsburgh chocolate shop is known for handmade confections?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "101",
+      "question": "Is passive income received by a self-employed person or partner subject to Pittsburgh Payroll Expense Tax?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "102",
+      "question": "What time does the Kamin Science Center 21+ Nights event start on November 6, 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "103",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “The Curious Couple”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "104",
+      "question": "Who is the Infield Coach for the Pittsburgh Pirates?",
+      "category": "Sports"
+    },
+    {
+      "id": "105",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Do I Have To Draw You A Picture?”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "106",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “Hay-Maker [Faneuse]”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "107",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Portrait of Samuel Harden Church”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "108",
+      "question": "What is the first step for renting the AWAACC?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "109",
+      "question": "Which department does the Carnegie Museum of Art catalog assign to “The I and the We, Part I: The I”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "110",
+      "question": "What was Deep Thought, and how was CMU involved?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "111",
+      "question": "Which Pittsburgh food festival focuses on Greek cuisine?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "112",
+      "question": "What percentage of gross receipts is treated as the established amusement price for a social club with no separate entertainment charge?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "113",
+      "question": "What accession number does the Carnegie Museum of Art list for the painting “Ben Drawing”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "114",
+      "question": "Which Pittsburgh restaurant is known for its extensive whiskey selection?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "115",
+      "question": "Does the Clemente museum have walk-in hours?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "116",
+      "question": "Which CMU alumnus is known for his work in computer networking and the development of the ARPANET?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "117",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Christ and the Woman of Samaria at the Well”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "118",
+      "question": "When do the Penguins host the Nashville Predators on October 24, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "119",
+      "question": "When does THAT LIKE THIS perform in Pittsburgh in 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "120",
+      "question": "How did the Carnegie Museum of Art acquire “Blah, Blah, Blah”, according to its catalog?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "121",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Lion Snapping at a Butterfly”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "122",
+      "question": "Are photos allowed during Carnegie Library Music Hall of Homestead performances?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "123",
+      "question": "What is the last day of the A Musical Christmas Carol show?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "124",
+      "question": "How did the Carnegie Museum of Art acquire “The Right Honorable William Pitt, the younger”, according to its catalog?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "125",
+      "question": "Where does the Carnegie Museum of Art currently list the painting “William Nimick Frew” as displayed?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "126",
+      "question": "What role did Pittsburgh play during the American Civil War?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "127",
+      "question": "Which Pittsburgh coffee shop is known for its in-house roasted beans and latte art?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "128",
+      "question": "What acquisition date does the Carnegie Museum of Art record for “Woodland Scene”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "129",
+      "question": "What team will the Duquesne University Dukes Ice Hockey team play against on November 6, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "130",
+      "question": "Which college does the Steelers roster list for Cameron Heyward?",
+      "category": "Sports"
+    },
+    {
+      "id": "131",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Mrs. Chase”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "132",
+      "question": "What is the significance of the year 1901 for Pittsburgh's steel industry?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "133",
+      "question": "What jersey number does the Steelers roster list for Germie Bernard?",
+      "category": "Sports"
+    },
+    {
+      "id": "134",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Waterloo Bridge, London”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "135",
+      "question": "Which opponent does Duquesne women’s basketball play on December 9, 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "136",
+      "question": "Which college does the Steelers roster list for Jaquan Brisker?",
+      "category": "Sports"
+    },
+    {
+      "id": "137",
+      "question": "What is the 'Kiltie Band' at Carnegie Mellon?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "138",
+      "question": "How many NL Wild Card games have the Pittsburgh Pirates won?",
+      "category": "Sports"
+    },
+    {
+      "id": "139",
+      "question": "Which building on Carnegie Mellon's campus houses the College of Fine Arts?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "140",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “The Gorge”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "141",
+      "question": "What jersey number does the Steelers roster list for Max Iheanachor?",
+      "category": "Sports"
+    },
+    {
+      "id": "142",
+      "question": "Which artist is credited for the Carnegie Museum of Art painting “Candlestick, Pipe, and Tobacco Box”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "143",
+      "question": "What is the significance of the Smithfield Street Bridge?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "144",
+      "question": "Which artist or school does the Carnegie Museum of Art list for “Pittsburgh Mills, South Side, Jones and Laughlin Mills, Pittsburgh Bridge and River”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "145",
+      "question": "What accession number does the Carnegie Museum of Art list for “Northeast Headlands, Appledore”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "146",
+      "question": "When is fourth quarter Payroll Tax due in Pittsburgh?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "147",
+      "question": "What acquisition date does the Carnegie Museum of Art record for “The Tribulations of Saint Anthony”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "148",
+      "question": "Which department does the Carnegie Museum of Art catalog assign to “Scene on Paint Creek Near Scalp Level”?",
+      "category": "Music and Culture"
+    },
+    {
+      "id": "149",
+      "question": "What time does the Teaching with Makers' Tools event at Hillman Library start on November 13, 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "150",
+      "question": "When does Fruit Bats perform in Pittsburgh in 2026?",
+      "category": "Events in Pittsburgh and CMU"
+    },
+    {
+      "id": "151",
+      "question": "On what date did Pittsburgh Pirates player Luke Weaver make his MLB debut?",
+      "category": "Sports"
+    },
+    {
+      "id": "152",
+      "question": "When is third quarter Earned Income Tax due in Pittsburgh?",
+      "category": "General Info and History of Pittsburgh/CMU"
+    },
+    {
+      "id": "153",
+      "question": "When will Pitt women's basketball visit Georgia Tech in December 2026?",
+      "category": "Sports"
+    },
+    {
+      "id": "154",
+      "question": "Which college does the Steelers roster list for Keeanu Benton?",
+      "category": "Sports"
+    },
+    {
+      "id": "155",
+      "question": "When did the Farmers' Market Cooperative of East Liberty first operate?",
+      "category": "Food-related events"
+    },
+    {
+      "id": "156",
+      "question": "Where was Pittsburgh Penguins player Rickard Rakell born?",
+      "category": "Sports"
+    },
+    {
+      "id": "157",
+      "question": "What credit line does the Carnegie Museum of Art record for “Bloomfield Bridge”?",
+      "category": "Music and Culture"
+    }
+  ]
+}
