@@ -16,7 +16,17 @@ language model to generate concise answers.
 The example below uses fixed-length chunks, MiniLM embeddings, RRF
 retrieval, and a local Qwen3-8B MLX reader.
 
-### 1. Prepare the dataset
+### 1. Environment Setup
+
+python3.11 -m venv .venv-retrieval
+.venv-retrieval/bin/python -m pip install \
+  -r configs/requirements-retrieval.lock.txt
+
+python3.11 -m venv .venv-reader
+.venv-reader/bin/python -m pip install \
+  -r configs/requirements-reader.lock.txt
+
+### 2. Prepare the dataset
 
 Save questions as a JSON array with unique IDs:
 
